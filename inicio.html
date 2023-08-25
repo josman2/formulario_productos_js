@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud - localStorage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Formulario de productos</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre Producto</label>
+                    <input type="text" class="nombre-pro form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Presentacion</label>
+                    <input type="text" class="presentacion-pro form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Imagen Producto</label>
+                    <input type="url"  required class="imagen-pro form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Precio Producto</label>
+                    <input type="number" class="precio-pro form-control" id="exampleInputPassword1">
+                </div>
+     
+                <button type="button" class="boton-guardar btn btn-primary">Guardar Producto</button>
+            </div>
+        </div>
+        <div class="row"> <!-- fila 3-->
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th width="5%" scope="col">#</th>
+                    <th width="20%" scope="col">Producto</th>
+                    <th width="20%" scope="col">Presentacion</th>
+                    <th width="10%" scope="col">Precio</th>
+                    <th width="25%" scope="col">Imagen</th>
+                    <th width="20%" scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="localStorage.js"></script>
+</body>
+</html>
